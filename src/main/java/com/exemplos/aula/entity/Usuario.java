@@ -1,6 +1,5 @@
 package com.exemplos.aula.entity;
 
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,8 +17,6 @@ public class Usuario {
     private String sobreNome;
 
     private LocalDate dataNascimento;
-
-    private Integer idade;
 
     public Integer getIdade(){
         var hoje = LocalDate.now();
